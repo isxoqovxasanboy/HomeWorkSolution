@@ -7,7 +7,7 @@
     //Mijozning ismi, hisob raqami va balansi kabi xususiyatlarni qo'shing.
 
 
-    public class User
+    public class Customer
     {
         public string? UserName { get; set; }
         public string? AccountNumber { get; set; }

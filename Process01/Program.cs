@@ -7,7 +7,7 @@ namespace Process01
         static void Main()
         {
             Console.Write("Enter Power number A: ");
-            int numberA = int.Parse(Console.ReadLine());
+            //int numberA = int.Parse(Console.ReadLine());
             //Console.Write("Enter Power number B: ");
             //int numberB = int.Parse(Console.ReadLine());
 
@@ -80,10 +80,16 @@ namespace Process01
             #endregion
 
             #region Tenth issues
-            Console.WriteLine($"{numberA} -> room number count {DigitCountNumber(numberA)}");
+            //Console.WriteLine($"{numberA} -> room number count {DigitCountNumber(numberA)}");
 
 
             #endregion
+
+
+            bool a = default;
+            Console.WriteLine(a);
+
+
 
         }
 
